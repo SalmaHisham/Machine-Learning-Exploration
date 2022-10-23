@@ -17,22 +17,19 @@
 **Python Version:** 3.8
 **Packages:**  
   > -  pandas
-   >  - numpy
-   >  - scipy
-   > -  matplotlib
-   >-  seaborn 
-   >- sklearn
+  > - numpy
+  > - scipy
+  > -  matplotlib
+  > -  seaborn 
+  > - sklearn
     
  **Dataset:** https://www.kaggle.com/datasets/zaraavagyan/weathercsv
+ 
 **Motivation:** ITI Assignment `Given by eng.Amira Mamdouh`
 
 ## EDA 
-- Checked the distributions and have a general look at the data.
-- Checked outliers.
-- Checked Nulls. 
-- Checked Duplicates. 
-- Checked highly correlated features.  
-- Checked Imbalance. 
+Checked the distributions and have a general look at the data and understand the features.
+
 
 ## Preprocessing 
 - Handled highly correlated features by removing the most correlated features (corr > 0.7) and if we have 2 highly correlated features, we drop one of them (the variable which is less correlated to the response variable).

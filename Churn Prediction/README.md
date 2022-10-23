@@ -17,22 +17,18 @@
 **Python Version:** 3.8
 **Packages:**  
   > -  pandas
-   >  - numpy
-   >  - scipy
-   > -  matplotlib
-   >-  seaborn 
-   >- sklearn
+  > - numpy
+  > - scipy
+  > -  matplotlib
+  > -  seaborn 
+  > - sklearn
     
  **Dataset:** Provided in the Repo
+
 **Motivation:** ITI Assignment `Given by eng.Amira Mamdouh`
 
 ## EDA 
-- Checked the distributions and have a general look at the data.
-- Checked outliers.
-- Checked Nulls. 
-- Checked Duplicates. 
-- Checked highly correlated features.  
-- Checked Imbalance. 
+Checked the distributions and have a general look at the data and understand the features.
 
 ## Preprocessing 
 - Clamped outliers for the whole data using their quartiles.	
@@ -41,7 +37,8 @@
   - **Standard scaler** for normally distributed features.
   - **Min Max scaler** for the other features.
  - Classify categorical features into (ordinal and nominal) to decide which features will be `Label Encoded` and which features should be `OHE`.
- - Using `Under-Sampling` to handle imbalanced data.
+- Encode categorical data  
+- Using `Under-Sampling` to handle imbalanced data.
 
 
 ## Model Building 
